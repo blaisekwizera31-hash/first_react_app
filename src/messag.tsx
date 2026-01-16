@@ -1,6 +1,10 @@
 function Message() {
     const names = 'Blaise';
-   return <h1>Hello {names}</h1> ; 
+    if(names){return <h1>Hello {names}</h1> ; }
+    else{
+        return <h1>Hello, you didnt provide a names</h1>
+    }
+   
 }
 
 export default Message;
