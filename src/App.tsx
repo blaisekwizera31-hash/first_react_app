@@ -1,4 +1,4 @@
-import ListGroup from "./components/ListGroup";
+
 function App() {
   return (
    <>      <h1>List Group</h1>
